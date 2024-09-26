@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sika-noppapeli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <a href="index.html" class="button">Yhden nopan versio</a>
+        <h1>Kahden nopan Sika-noppapeli</h1>
+        <div id="player-info"></div>
+        <div id="dice-area">
+            <img id="dice1-img" src="nopat/dice6.png" alt="Noppa" />
+            <img id="dice2-img" src="nopat/dice6.png" alt="Noppa" />
+        </div>
+        <div id="actions">
+            <button onclick="aloitus()">Aloita peli</button>
+            <button id="roll-dice-btn">Heitä noppaa</button>
+            <button id="end-turn-btn">Lopeta vuoro</button>
+        </div>
+        <div id="score-board"></div>
+    </div>
+    <script src="javascriptit/kahdenNopan.js"></script>
+</body>
+</html>
